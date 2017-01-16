@@ -18,7 +18,7 @@
 /*String containing Hostname, Device Id & Device Key in the format:                         */
 /*  "HostName=<host_name>;DeviceId=<device_id>;SharedAccessKey=<device_key>"                */
 /*  "HostName=<host_name>;DeviceId=<device_id>;SharedAccessSignature=<device_sas_token>"    */
-static const char* connectionString = "[device connection string]";
+static const char* connectionString = "HostName=APQIOTHub.azure-devices.net;DeviceId=APQDevice;SharedAccessKey=vUG9OQnEVdtp6OkCw6AVzdlkPt3XeMULbRbxD7ptvfE=";
 
 static int callbackCounter;
 static char msgText[1024];
