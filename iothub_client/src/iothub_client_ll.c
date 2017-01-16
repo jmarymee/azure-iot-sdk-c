@@ -172,7 +172,7 @@ IOTHUB_CLIENT_LL_HANDLE IoTHubClient_LL_CreateFromConnectionString(const char* c
             config->deviceSasToken = NULL;
 
             /* Codes_SRS_IOTHUBCLIENT_LL_04_002: [If it does not, it shall pass the protocolGatewayHostName NULL.] */
-            config->protocolGatewayHostName = NULL;
+            config->protocolGatewayHostName = "protocol-gateway.contoso.com";
 
             if ((connString = STRING_construct(connectionString)) == NULL)
             {
